@@ -19,9 +19,12 @@ public class GoogleSteps {
     public String googletemp(){
         return google.googleTemperature();
     }
-    public void arrayTemperature(){
+    public int arrayTemperature(){
+        int googleTemperature = 0;
         ArrayList<String> temperature = new ArrayList<String>();
         temperature.add(googletemp());
-        System.out.println(temperature);
+        googleTemperature = Integer.valueOf(temperature.get(0));
+        return googleTemperature;
     }
+
 }
