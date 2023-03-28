@@ -4,6 +4,7 @@ Weather extractor
 In order to execute the project you must have:  
 - java 19.0.2
 - maven 3.8.7
+- chrome 111.0.5563
 
 Steps to execute:    
 1- Clone the project  
